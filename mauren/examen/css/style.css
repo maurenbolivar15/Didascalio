@@ -1,0 +1,68 @@
+body{background-color:#FFFFFF;}
+			p{
+				color: #black;
+				font-family:Algerian;
+				font-size:25px;
+				border:2px solid #000000;
+			}
+h1{		
+	color: black;
+	text-align:center;
+}
+div{
+text-align:center;
+}
+	div{color:#FFFFFF;
+	} 
+	
+.menu{
+	position:relative;
+	border: 1px solid #FFFFFF;
+	background: #020202 !important;
+	padding: 60PX;
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+	border-radius: 20px;
+	-moz-border-radius : 10px;
+	background : -webkit-gradient(linear,left top, left bottom, from(rgb(240,240,240)),
+	to(rgb(204,204,204)));
+	background : -moz-gradient
+	(linear, left top, left bottom,
+	from(rgb(240,240,240)), to(rgb(204,204,204)));
+	height: 18px
+   }
+   
+a {color:#FFFFFF;}
+	
+ul {
+	margin: 0;
+	padding: 0;
+	z-index: 300;
+	position: right;
+	text-align: right;
+}
+ul li {
+	list-style: none;
+	float: right;
+	
+	text-align: center;
+}
+
+ul li a {
+	padding: 0 20px;
+}
+.float {
+	position:absolute;
+	top: 10px;
+	z-index: 50;
+	width: 70px;
+	height: 30px;
+	border-radius : 8px;
+	-moz-border-radius : 8px;
+	-webkit-border-radius : 8px;
+	background : rgba(0,0,0,.20);
+	-webkit-transition: all ,4s ease-im-out;
+-moz-transition: all ,4s ease-in-out;
+}
+
+ form  {background-color:#000000;}

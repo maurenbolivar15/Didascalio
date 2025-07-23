@@ -1,0 +1,76 @@
+<html>
+	<head>
+		<title>aprn.Mauren Bolivar</title>
+		<link rel="stylesheet" href="./css/style.css">
+	</head>
+
+	<body>
+		<div class ="menu">
+		<ul>
+ 		<li><a href="">inicio</a></li>
+		<li><a href="">Acerca de ella</a></li>
+		<li><a href="">contactanos</a></li>
+	</ul>
+	<div class="floatr"></div>
+	</div>
+	<h1>Sabrina_Carpenter</h1>
+		<img src="hola.jpg" width="600" height="600"/>
+	<p>sabrina es una mujer hermosa y canta muy bonito, <a href="https://es.wikipedia.org/wiki/Sabrina_Carpenter">sabrina</a> es muy especial</p>
+	<strong>sabrina</strong>
+	<form action="action_page.php" method="get">
+	<p>Nombre: <input type="text" name="nombre" size="240"></p>
+	<p>Años de Nacimiento: <input type="number" name="nacimiento"></p>
+	<p>Sexo: <input type="radio" name="hm" value="h">Hombre
+	         <input type ="radio" name="hm" value="m">Mujer
+	 </p>
+	 <p>
+	<input type="submit" value="Enviar">
+	<input type="reset">   
+</p>	
+</form>
+<button name="button" onclick= "edadKarla()">Registrate</button>
+<button name="button" onclick= "Makeup()">Registrate</button>
+<button name="button" onclick= "fruts()">fruts</button>
+
+<p id="demo"></p>
+<p id="demo2"></p>
+<script>
+
+function edadKarla() {
+document.getElementById('demo').style.fontSize = "25px";
+ document.getElementById('demo').style.color= "#ffa0d0";
+let x, y, z;
+x= 5;
+y= 6;
+z = (x + y) * 2 ; 
+"Hola, karla tiene" + z + "años";
+}
+function Makeup(){
+   const Makeup = ["Basis","lip","Dust"];
+   Makeup[0] = "GLAMOUR";
+   Makeup.push("Makeup");
+   document.getElementById('demo2').innerHTML = Makeup;
+   };
+   const Makeup2 ={
+     creador:"Cosmetics",
+	 tipo:"Ligera",
+   };
+   let text =" ";
+   for (let x in Makeup2){
+        text + = Makeup2[x] + " ";
+   };
+    document.getElementById('demo').innerHTML = "Tengo maquillaje tipo" + text;
+	
+   function Fruts(){ 
+   const frust = ["banana","pear","apple"];
+   apple:"300"
+   banana:"200"
+   pear:"100"
+   document.getElementById('demo2').innerHTML = Fruts;
+   };
+   
+ 
+   </script>
+   </body>
+</html>
+
