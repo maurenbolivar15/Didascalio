@@ -74,7 +74,7 @@ function Makeup(){
     document.getElementById('demo').innerHTML = "Tengo maquillaje tipo" + text;
 	
   };  
-function fruits() { 
+function fruits() {                                    
 const fruits = 
    apple:"300"
    banana:"200"
