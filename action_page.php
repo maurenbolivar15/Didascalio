@@ -4,6 +4,6 @@
 
 </head>
 <body>
-Hola, <?php echo $_get["nombre"]; ?>
+Hola, <?php echo $_POST["nombre"]; ?>
 </body>
 </html>
